@@ -18,11 +18,11 @@ public class TreesQuestion {
         inorder(root.right);
     }
     public static void main(String[] args){
-        Node A=new Node(1);
-        Node B=new Node(2);
-        Node C=new Node(3);
-        C.left=A;
-        C.right=B;
-        inorder(C);
+        Node a=new Node(1);
+        Node b=new Node(2);
+        Node c=new Node(3);
+        c.left=a;
+        c.right=b;
+        inorder(c);
     }
 }
