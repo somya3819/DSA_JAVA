@@ -4,11 +4,6 @@ public class FibonaccSeries {
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
         int num=s.nextInt();
-//        while(true){
-//            if(num>=0){
-//
-//            }
-//        }
         int nthFibbo=fibonacci(num);
         System.out.println("nthfibbo : "+nthFibbo);
 
