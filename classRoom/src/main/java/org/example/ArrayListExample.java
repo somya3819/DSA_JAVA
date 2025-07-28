@@ -11,6 +11,6 @@ public class ArrayListExample {
         System.out.println("size of arraylist is "+al.size());
 
         System.out.println(al.contains("Somya"));//return true - "contains method" checks if that particular object is there in the arraylist or not
-        System.out.println(al.contains("atharva")); //return false
+        System.out.println(al.contains("atharva bkl")); //return false
     }
 }
